@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  // Our jQuery code will go here...
+
+  var slider = $('.slider');
+  slider.animate({ 'left': -500 });
+
 });
