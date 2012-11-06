@@ -1,8 +1,13 @@
- .slider-panel{
-   width: 500px;
-   height: 300px;
+.slider{
+   width: 1500px;
  }
 
- .slider-panel img{
-   width: 100%;
- }
+.slider-panel{
+ float: left;
+ width: 500px;
+ height: 300px;
+}
+
+.slider-panel img{
+ width: 100%;
+}
