@@ -5,6 +5,7 @@
 }
 
 .slider{
+  position: relative;
   width: 1500px;
 
   /* reset default list styles */
