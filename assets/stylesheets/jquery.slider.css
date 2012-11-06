@@ -1,13 +1,18 @@
 .slider{
-   width: 1500px;
- }
+  width: 1500px;
+
+  /* reset default list styles */
+  margin: 0;
+  padding: 0;
+  list-style:none;
+}
 
 .slider-panel{
- float: left;
- width: 500px;
- height: 300px;
+  float: left;
+  width: 500px;
+  height: 300px;
 }
 
 .slider-panel img{
- width: 100%;
+  width: 100%;
 }
