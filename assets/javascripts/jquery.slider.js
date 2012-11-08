@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
   var slider = $('.slider');
-  slider.animate({ 'left': -500 });
+
+  setInterval(function(){
+    slider.animate({ 'left': -500 });
+  }, 3000);
 
 });
