@@ -6,6 +6,8 @@ $(document).ready(function() {
 
   setInterval(function(){
 
+    console.log(slider.position().left);
+
     if (slider.position().left <= end_position) {
       slider.animate({ 'left': start_position });
     } else {
